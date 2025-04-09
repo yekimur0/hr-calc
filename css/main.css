@@ -924,6 +924,7 @@ svg > * {
 @media(max-width: 992px) {
     .after-calc .lside {
       width: 100%;
+      max-width: 100%;
     }
     .after-calc__container {
       height: 100%;
