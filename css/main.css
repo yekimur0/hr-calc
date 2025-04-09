@@ -921,6 +921,16 @@ svg > * {
   }
 }
 
+@media(max-width: 992px) {
+    .after-calc .lside {
+      width: 100%;
+    }
+    .after-calc__container {
+      height: 100%;
+      overflow: auto;
+    }
+}
+
 @media(max-width: 640px) {
   .calculator__btn {
     font-size: 14px;
